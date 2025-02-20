@@ -1,5 +1,6 @@
-import type { ComponentProps } from 'react'
 import { twMerge } from 'tailwind-merge'
+
+import type { ComponentProps } from 'react'
 
 export function Label(props: ComponentProps<'label'>) {
   return (
