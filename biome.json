@@ -22,7 +22,7 @@
     "rules": {
       "recommended": true,
       "style": {
-        "noNonNullAssertions": "off"
+        "noNonNullAssertion": "off"
       }
     }
   },
