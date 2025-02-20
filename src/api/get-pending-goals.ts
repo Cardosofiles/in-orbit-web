@@ -1,7 +1,6 @@
 type PendingGoalsResponse = {
   id: string
   title: string
-  createdAt: Date
   desiredWeeklyFrequency: number
   completionCount: number
 }[]

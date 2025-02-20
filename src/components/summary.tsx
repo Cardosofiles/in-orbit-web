@@ -16,12 +16,12 @@ import { getSummary } from '@/api/get-summary'
 import { PendingGoals } from './pending-goals'
 
 dayjs.locale(ptBR)
-const timerController = 1000 * 60 // 60 seconds
+
 export function Summary() {
   const { data } = useQuery({
     queryKey: ['summary'],
     queryFn: getSummary,
-    staleTime: timerController,
+    staleTime: 1000 * 60,
   })
 
   if (!data) return null
